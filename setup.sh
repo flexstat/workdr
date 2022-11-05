@@ -46,19 +46,6 @@ then
   exit 0
 fi
 
-shopt -s nullglob dotglob
-directory=(dependencies/*)
-if [ ${#directory[@]} -gt 0 ]
-then
-echo "Dependency Folder Found!"
-else
-echo "You need to get the dependencies first. Run './getdependencies.sh'"
-exit 0
-fi
-
-echo "Proceeding to do the configuration and setup. This will take awhile."
-sleep 5
-
 ### Configuration
 string="s/masterbalanceonion/"
 string+="$MASTERONION"
