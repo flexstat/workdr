@@ -1,6 +1,6 @@
 #/bin/bash
 
-cd luajit2
+cd luajit2-2.1-20200102
 make -j8 && make install
 cd ..
 
