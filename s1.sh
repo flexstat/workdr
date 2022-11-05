@@ -6,6 +6,8 @@ apt -y install git
 
 apt-get install -y build-essential zlib1g-dev libpcre3 libpcre3-dev uuid-dev gcc git wget curl libgd3 libgd-dev  libssl-dev
 
+apt-get install -y apt-transport-https lsb-release ca-certificates dirmngr
+
 wget https://nginx.org/download/nginx-1.20.2.tar.gz
 
 tar -xvf nginx-1.20.2.tar.gz
