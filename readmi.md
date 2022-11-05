@@ -23,11 +23,10 @@ in nginx dir
 
 make && make install 
 
-#https://github.com/c64bob/lua-resty-aes/raw/master/lib/resty/aes_functions.lua
 mv resty/aes_functions.lua /usr/local/lib/lua/resty/aes_functions.lua 
 
 mkdir /etc/nginx/resty/
-#include seems to be a bit mssed up with luajit
+
 ln -s /usr/local/lib/lua/resty/ /etc/nginx/resty/
 
 test you nginx
