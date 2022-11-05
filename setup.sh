@@ -2,16 +2,16 @@
 
 #OPTIONS!
 
-MASTERONION="dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion"
+MASTERONION="o5gmdbef6xrw3q22cnledtiixblrtxi5zx757urribpzaigwutkqdhid.onion"
 TORAUTHPASSWORD="changethispassowrd"
-BACKENDONIONURL="biblemeowimkh3utujmhm6oh2oeb3ubjw2lpgeq3lahrfr2l6ev6zgyd.onion"
+BACKENDONIONURL="j5k3lkmbetfhssoe6jrbpscdqhfihghofumks7qrblva5kiakrxilkad.onion"
 
 #set to true if you want to setup local proxy instead of proxy over Tor
 LOCALPROXY=false
 PROXYPASSURL="10.10.10.10:80"
 
 #Shared Front Captcha Key. Key alphanumeric between 64-128. Salt needs to be exactly 8 chars.
-KEY="encryption_key"
+KEY="ewqeqweqweqweqweqweqweqw24324234234weqweqweqweqe121243243432"
 SALT="1saltkey"
 SESSION_LENGTH=3600
 
@@ -228,3 +228,4 @@ clear
 echo "ALL SETUP! Your new front address is"
 echo $HOSTNAME
 echo "Add it to your onionbalance configuration!"
+
