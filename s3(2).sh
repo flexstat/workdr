@@ -11,8 +11,10 @@ git clone https://github.com/openresty/lua-nginx-module
 cd lua-nginx-module
 git checkout v0.10.16
 cd ..
-git clone https://github.com/openresty/luajit2
-cd luajit2
+wget https://github.com/openresty/luajit2/archive/v2.1-20200102.tar.gz 
+tar -xvf v2.1-20200102.tar.gz
+cd luajit2-2.1-20200102
+
 git checkout v2.1-20200102
 cd ..
 
