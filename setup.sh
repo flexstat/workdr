@@ -136,7 +136,6 @@ cp -r objs modules
 rm -R /etc/nginx/modules
 mkdir /etc/nginx/modules
 mv modules /etc/nginx/modules
-cd ..
 
 rm /etc/nginx/nginx.conf
 mv nginx.conf /etc/nginx/nginx.conf
