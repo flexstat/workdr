@@ -1,3 +1,6 @@
+build legasy dread 
+
+
 ./s1.sh
 
 after download nginx cd in dir and copy this in nginx dir:
